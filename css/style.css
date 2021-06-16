@@ -1,0 +1,72 @@
+/*CSS reset*/
+
+*{
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    }
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+/*The header*/
+nav{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px;
+    height:7vh;
+}
+nav a{
+    color:rgba(0,0,0,0.87);
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav ul{
+    display: flex;
+    width:240px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#profile-icon img{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0px;
+}
+#apps{
+    border-style:solid;
+    border-width: 0px;
+    border-radius: 50%;
+}
+#apps span{
+    display: block;
+    color:#5f6368;
+    padding:5px;
+}
+#apps:hover{
+    background-color: #eff0f0;
+    
+}
+
+/*Google logo*/
+#logo{
+    width:100vw;
+    text-align: center;
+    height: 30vh;
+}
+
+
+    
