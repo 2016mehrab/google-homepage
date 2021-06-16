@@ -63,10 +63,89 @@ nav ul{
 
 /*Google logo*/
 #logo{
-    width:100vw;
+    width: 100vw;
     text-align: center;
     height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
+/*Search bar and Search icon*/
+#search-bar{
+    height:35vh;
+}
+form{
+    width:80vw;
+    height: 20vh;
+    margin:auto;
+    padding-top: 20px;
+}
+.center-search-icon{
+    position:absolute;
+    width: 60px;
+    height:44px;
+    z-index:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.search{
+    position:relative;
+    display: block;
+    width:85%;
+    max-width:584px;
+    margin: auto;
+}
+[type="search"]{
+    width:100%;
+    border:1px solid #dfe1e5;
+    border-radius: 24px;
+    height:44px;
+    padding:0px 55px;
+
+}
+[type="search"]:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+[type="submit"]{
+    display:block;
+    
+}
+#search{
+    display: block;
+    color: #9aa0a6;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/*Google search button and I'm Feeling Lucky button*/
+.submit{
+    height:60% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    padding:8px 18px ;
+    margin: 0px 6px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+button:hover{
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    box-shadow:1px 1px 2px #f8f9fa;
+
+}
+/*Button DOne*/
 
     
