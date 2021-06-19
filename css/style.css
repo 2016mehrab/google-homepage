@@ -12,10 +12,22 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    flex-wrap: wrap;
     }
+*:focus {
+    outline-width: 1px ;
+    outline-color: rgb(96, 138, 187);
+    outline-style: solid;
+}
+a:hover{
+    text-decoration:underline;
+}
 img{
     max-width: 100%;
     height:auto;
+}
+main{
+    height:80vh;
 }
 
 /*The header*/
@@ -127,8 +139,10 @@ form{
 .submit{
     height:60% ;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    max-width: 300px;
+    margin: auto;
 
 }
 button{
@@ -148,4 +162,68 @@ button:hover{
 }
 /*Button DOne*/
 
+#offered-language{
+    margin-top:-50px;
+    text-align:center;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color:rgba(0,0,0,0.87);
+}
+
+/* footer */
+footer{
+    color:rgba(0,0,0,.54);
+    background-color: rgb(242, 242, 242);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+footer a{
+    color:rgba(0,0,0,.54);
+}
+#footer-up p{
+font-size:14px;
+font-family: Arial, sans-serif;
+padding: 0px 20px;
+}
+#footer-up{
+display:flex;
+align-items: center;
+padding: 12px 20px;
+border-bottom:1px solid #dadce0;
+}
+#footer-bottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
     
+    font-size:14px;
+    font-family: Arial, sans-serif;
+    padding: 12px 20px;
+
+}
+
+#About{
+    display: flex;
+    height:auto;
+}
+#Terms-conditions{
+    display:flex;
+    height: auto;
+}
+footer li{
+    padding:0px 20px;
+}
+
+/* resposnsive footer */
+@media(max-width:1195px){
+    #footer-bottom{
+        width: 70%;
+        margin:auto;
+    }
+    #footer-up {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
